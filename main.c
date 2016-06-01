@@ -146,7 +146,7 @@ static ble_ias_c_t                      m_ias_c;                                
 
 static volatile bool                    m_is_high_alert_signalled;               /**< Variable to indicate whether a high alert has been signalled to the peer. */
 static volatile bool                    m_is_ias_present = false;                /**< Variable to indicate whether the immediate alert service has been discovered at the connected peer. */
-static uint8_t write_flag=0;
+static volatile uint8_t write_flag=0;
 APP_TIMER_DEF(m_battery_timer_id);                                               /**< Battery measurement timer. */
 
 
