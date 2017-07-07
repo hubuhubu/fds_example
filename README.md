@@ -4,7 +4,7 @@ Requirements
 ------------
 - nRF5 SDK version 11
 - S132,S130 SoftDevice v2.0 
-- nRF52822 DK (PCA10036 or PCA10040)
+- nRF5x DK (PCA10028 or PCA10040)
 
 The project may need modifications to work with other versions or other boards. 
 
